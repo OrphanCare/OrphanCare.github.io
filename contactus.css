@@ -1,0 +1,142 @@
+
+*{
+	box-sizing:border-box;
+}
+p.ex1 {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+h1 {
+	font-family: Century Gothic;
+	font-size: 22px;
+	font-color: powderblue;
+	text-align: center;
+}
+body {
+	font-family: Century Gothic, Arial, san-serif;
+}
+.navbar {
+	overflow: hidden;
+	background-color: powderblue;
+ 	font-family: century gothic;
+}
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: century gothic;
+}
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: black;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: century gothic;
+	margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: yellow;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+table {
+	font-family:lucida fax; 
+	font-size:16px;
+	background-color:azure; 
+	border: 1px solid teal;
+	border-collapse:collapse;
+	border-spacing: 5px;
+}
+
+th {
+	border: 1px solid teal; 
+	border-collapse:collapse; 
+	padding: 15px; 
+	text-align: left;
+	background-color:powderblue;
+}
+
+td {
+	border: 1px solid teal; 
+	border-collapse:collapse; 
+	padding: 15px;
+}
+footer {
+	background-color:powderblue;
+	padding:5px;
+	text-align:center;
+	color: black;
+}
+@media(max-width:600px){
+	section {
+	-webkit-flex:column;
+	flex-direction:column;}
+}
+	input[type = text]{
+		width : 20%;
+		padding : 6px 10px;
+		margin : 8px 0;
+		box-sizing: border-box;
+		border: 2px solid yellow;
+		border-radius : 8px;
+		background-color : powderblue;
+		color: black;
+	}
+	input[type = tel] {
+		width : 8%;
+		padding : 6px 10px;
+		margin : 8px 0;
+		box-sizing: border-box;
+		border: 2px solid yellow;
+		border-radius : 8px;
+		background-color : powderblue;
+		color: black;
+	}
+	input[type = email] {
+		border: 0;
+		border-bottom: 2px solid yellow;
+	}
+	input[type = number]:focus{
+		background-color: powderblue;
+		border : solid yellow;
+	}
+	body {
+		border: 8px 0;
+		text-align: center; 
+	}
+

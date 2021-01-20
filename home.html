@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="About">
+  <meta name="keywords" content="HTML,CSS">
+  <meta name="author" content="OrphanCare">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About OrphanCare</title></head>
+<body>
+<body style="background-color: white">
+<p style="text-align:center;"><a href="index.html"><img src="orphancare.png" alt="header" width="50%" height="150px"></a></p>
+<div class="navbar">
+	<a href="home.html">Home</a>
+	<a href="organizationchart.html">Organizational Chart</a>
+		<div class="dropdown">
+		<button class="dropbtn">Services 
+		<i class="fa fa-caret-down"></i>
+		</button>
+			<div class="dropdown-content">
+			<a href="youthworkshop.html">Youth Workshop</a>
+			<a href="parentstraining.html">Parents Training</a>
+			<a href="counselling.html">Counselling</a>
+ 			</div>
+		</div>
+	<a href="activities.html">Activities</a>
+	<a href="babyhatchcenters.html">Baby Hatch Centers</a>
+	<a href="donations.html">Donations</a> 
+	<a href="contact.html">Contact</a>
+</div>
+	<h1>About OrphanCare</h1>
+
+<div style="text-align:center"> 
+<button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+<br><br>
+  <video id="video1" width="420">
+    <source src="orphancaread.mp4" type="video/mp4">
+    <source src="orphancaread.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+
+
+<p style ="color:black; text-align:center;font-family: Century Gothic; font-size:20px;"><i>Why We Do This</i></p>
+<p class="ex1"; style ="color:black; text-align:center;font-family:Arial; font-size:18px;">We want children out of institutions and cared for by families. This vision drives OrphanCare.
+We believe children have the right to love, security, shelter, health and education as enshrined in Malaysia’s Child Act (Amendment) 2016 and the United Nation’s Convention on the Rights of the Child (UNCRC).
+The damage caused by institutions makes us passionate about our mission. Unfortunate circumstances can be mitigated by good policies and determined action.</p>
+<p style ="color:black; text-align:center;font-family: Century Gothic; font-size:20px;"><i>Giving Children Back Their Lives</i></p>
+<p class="ex1"; style ="color:black; text-align:center;font-family:Arial; font-size:18px;">Children living in institutions are deprived of the right to grow up in a family. Deinstitutionalisation (DI) is the way to restore that right.
+There are an estimated 64,000 children in Malaysia living in institutions because they are poor, disabled, mentally challenged or for other medical and social reasons. Many newborns continue to be abandoned.
+With support from the Ministryof Women, Family and Community Development and its partners OrphanCare is implementing a process called ‘Deinstitutionalisation’ (DI) to help children be assimilated into families,
+get access to education, quality health care and the support and protection of their communities.</p>
+<p style ="color:black; text-align:center;font-family: Century Gothic; font-size:20px;"><i>Every child needs a family</i></p>
+<p class="ex1"; style ="color:black; text-align:center;font-family:Arial; font-size:18px;">OrphanCare Foundation advocates and works to give children who are in institutions and unplanned newborn babies 
+whose lives are at risk the opportunity to grow up in the care of a loving family.</p>
+<br><br>
+<hr>
+<footer> 
+	<p style="color:black;text-align:center;font-size:16px;"><i>Designed by Brandtner, Henrickson, Yaziid and Rafhan</i></p>
+	<p style="color:black;text-align:center;font-size:16px;"><i>To know more about us, click <a href="aboutus.html">here!</a></i></p>
+	<p style="color:black;text-align:center;font-size:16px;"><i>Disclaimer: This website is for educational purposes only. For the official website, visit <a href="https://orphancare.org.my/" target="_blank">www.orphancare.org.my</a></i></p>
+	<p style ="color: black; text-align:center;font-family:Century Gothic; font-size:14px;"><i>Last updated on 5th January 2021</i></p>
+	<p style ="color: black; text-align:center;font-family:Century Gothic; font-size:14px;"><i>Recommended Google Chrome resolution: 1366 x 768p</i></p>
+</footer>
+</body>
+</html>
